@@ -28,18 +28,21 @@ h1 {
     height: 100%;
     max-width: 992px;
     margin: 0 auto;
-    background-color: rgb(210, 200, 200);
-
-    border: rgb(240, 213, 218);
+    /* border: 3px solid skyblue; */
 }
   
 .header-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 nav {
     width: 400px;
     height: 100%;
-    border: 3px solid rgb(182, 95, 110);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid rgb(182, 95, 110); */
 }

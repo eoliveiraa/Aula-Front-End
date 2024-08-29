@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            background-color: rgb(217, 235, 232);
+            justify-content:center;
+            gap: 20px;
+        }
+
+        article {
+        
+            width: 180px;
+            height: 180px;
+            border: 1px dashed rgb(23, 112, 171);
+            background-color: rgb(226, 246, 255);
+            padding: 15px;
+
+            margin-left: 20;
+            margin-top: 20px;
+            border: 1px dashed rgb(224, 224, 224);
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 5px black;
+        }
+       
+        article img {
+            width: 40px;
+        }
+
+        article h1{
+            text-align: center;
+            font-size: 18px;
+            font-family:'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+
+        article p{
+            text-align: center;
+            font-family:cursive;
+            font-size: 12px;
+        }
+        
+        .caixa2{
+            background-color: rgb(23, 112, 171);
+            border: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 12px;
+            margin-left: 20;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        
+        .caixa3{
+            background-color: rgb(226, 246, 255);
+            border: rgb(23, 112, 171);
+            text-align: center;
+            font-size: 12px;
+            margin-left: 20;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <article>
+
+        <img src="./imagens/Lightning Bolt.svg" alt="imagem de um raio">
+        <h1>Web design</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+
+    </article>
+    
+    <article class="caixa2">
+
+        <img src="./imagens/Share Rounded.svg" alt="">
+        <h1>Graphics Design</h1>
+        <p> Suscipit beatae ab pariatur! Dolor odio architecto autem fugiat obcaecati! 
+        </p>
+
+    </article>
+
+    <article class="caixa3">
+
+        <img src="./imagens/Opened Folder.svg" alt="">
+        <h1>UI/UX Design</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.gfdfqy
+        </p>
+
+    </article>
+
+
+
+
+</body>
+
+</html>
