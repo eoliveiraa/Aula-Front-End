@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html, body{
+    height: 100%;
+    /* border: 2px solid rgb(30, 142, 131) ; */ 
+}
 
 body {
     background-color: #efefef;
 }
 
-header {
+header, footer{
     background-color: rgb(19, 118, 108);
     width: 100%;
     height: 80px;
@@ -17,12 +20,12 @@ header {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: 300;
+    font-family: verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
     color: white;
 }
-
+ 
 .layout-grid {
     width: 100%;
     height: 100%;
@@ -30,7 +33,7 @@ h1 {
     margin: 0 auto;
     /* border: 3px solid skyblue; */
 }
-  
+
 .header-flex{
     display: flex;
     justify-content: space-between;
@@ -45,4 +48,65 @@ nav {
     justify-content: space-between;
     align-items: center;
     /* border: 3px solid rgb(182, 95, 110); */
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* border: 2px solid aliceblue; */
+
+    font-family: Verdana, sans-serif;
+    width: 100%;
+    height: 80%;
+    text-decoration: none;
+    color: #e8e8e8;
+    transition: background-color ease-in 0.4s;
+}
+
+nav a:hover {
+     background-color: rgba(122, 186, 180,0.5);
+     border-radius: 12px;
+     margin-left: 10px; 
+     margin-bottom: 10px; 
+    /* text-decoration: underline; */
+    /* font-style: italic; */
+    /* color: aquamarine; */
+}
+
+.ux{
+    font-size: 30px;
+    margin-left: 3px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: monospace;
+}
+main{
+    width: 100%;
+    height: 800px;
+    border: 5px solid aquamarine;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(109, 211, 177);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.Harmonia{
+    border: 2px solid aqua;
+    height: 100%;
+    width: 700px;
+    background-color: rgb(205, 225, 242);
+}
+
+.aside{ 
+     width: 250px;
+     height: 100%;
+     border: 2px solid rgb(124, 182, 232); 
+     background-color: rgb(187, 255, 232);
+  
 }
