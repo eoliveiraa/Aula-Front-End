@@ -5,15 +5,15 @@
 }
 html, body{
     height: 100%;
-    /* border: 2px solid rgb(30, 142, 131) ; */ 
+
 }
 
 body {
-    background-color: #efefef;
+    background-color: #e5e4e4;
 }
 
 header, footer{
-    background-color: rgb(19, 118, 108);
+    background-color: rgb(34, 121, 113);
     width: 100%;
     height: 80px;
 
@@ -31,7 +31,7 @@ h1 {
     height: 100%;
     max-width: 992px;
     margin: 0 auto;
-    /* border: 3px solid skyblue; */
+
 }
 
 .header-flex{
@@ -45,34 +45,31 @@ nav {
     width: 400px;
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    /* border: 3px solid rgb(182, 95, 110); */
+    justify-content: space-between;
+
 }
 
 nav a {
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-decoration: none;
-    /* border: 2px solid aliceblue; */
-
-    font-family: Verdana, sans-serif;
+    justify-content: center;
     width: 100%;
+
     height: 80%;
     text-decoration: none;
     color: #e8e8e8;
+    font-family: Verdana, sans-serif;
     transition: background-color ease-in 0.4s;
 }
 
 nav a:hover {
-     background-color: rgba(122, 186, 180,0.5);
-     border-radius: 12px;
-     margin-left: 10px; 
-     margin-bottom: 10px; 
-    /* text-decoration: underline; */
-    /* font-style: italic; */
-    /* color: aquamarine; */
+
+    border-radius: 12px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    background-color: rgba(122, 186, 180,0.5);
+
 }
 
 .ux{
@@ -82,31 +79,105 @@ nav a:hover {
     font-weight: 500;
     font-family: monospace;
 }
+
 main{
     width: 100%;
-    height: 800px;
-    border: 5px solid aquamarine;
+    height: 600px;
+    /* border: 5px solid aquamarine; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .main-flex{
     display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(109, 211, 177);
     width: 100%;
     height: 100%;
-    align-items: center;
-}
-.Harmonia{
-    border: 2px solid aqua;
-    height: 100%;
-    width: 700px;
-    background-color: rgb(205, 225, 242);
+    justify-content: space-between;
+    /* border: 2px solid rgb(109, 211, 177); */
+
 }
 
-.aside{ 
-     width: 250px;
-     height: 100%;
-     border: 2px solid rgb(124, 182, 232); 
-     background-color: rgb(187, 255, 232);
-  
+.Harmonia{
+
+    height: 100%;
+    width: 700px;
+    background-color: #efefef;
+    overflow: auto;
+    padding-bottom: 20px;
+    /* border: 2px solid aqua; */
+}
+
+aside{ 
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: space-between;
+    /* border: 2px solid rgb(124, 182, 232);  */
+    background-color: #efefef;
+}
+
+aside article{
+    background-color:white; 
+}
+
+aside article h3{
+    width: 100%;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px solid  #a8a8a8;
+}
+
+aside .buscar-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+aside article input, aside article button{
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+aside article input{
+    border: 1px solid #a8a8aa;
+    outline: none;
+    padding-left:5px ;
+    padding-right:5px ;
+}
+
+aside article button{
+    width: 30px;
+    background-color: #727272;
+    color: white;
+    border: none;
+    border: 1px solid #727272;
+    cursor: pointer;
+}
+
+.Harmonia img {
+    width: 100%;
+}
+
+.Harmonia h2{
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size:20px;
+}
+
+.Harmonia p{
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a8a8a8;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
 }
